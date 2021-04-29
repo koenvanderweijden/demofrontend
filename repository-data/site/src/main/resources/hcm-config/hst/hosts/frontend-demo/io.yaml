@@ -6,7 +6,7 @@ definitions:
       /onehippo:
         .meta:residual-child-node-category: content
         jcr:primaryType: hst:virtualhost
-        /frontend-demo:
+        /frontend-demo-kvk:
           .meta:residual-child-node-category: content
           jcr:primaryType: hst:virtualhost
           /hst:root:
