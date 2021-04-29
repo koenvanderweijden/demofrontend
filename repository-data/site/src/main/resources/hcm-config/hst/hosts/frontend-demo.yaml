@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts/frontend-demo:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhostgroup

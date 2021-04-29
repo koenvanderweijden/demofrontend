@@ -12,3 +12,5 @@ definitions:
           jcr:primaryType: hst:mount
           hst:homepage: root
           hst:mountpoint: /hst:myproject/hst:sites/myproject
+          hst:pagemodelapi: resourceapi
+          hst:responseheaders: ['Access-Control-Allow-Origin: *']

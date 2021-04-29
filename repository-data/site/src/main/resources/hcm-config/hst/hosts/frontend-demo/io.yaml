@@ -1,0 +1,21 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts/frontend-demo/io:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhost
+      /onehippo:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:virtualhost
+        /frontend-demo:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:virtualhost
+          /hst:root:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:mountpoint: /hst:myproject/hst:sites/myproject
+            hst:pagemodelapi: resourceapi
+            hst:responseheaders: ['Access-Control-Allow-Origin: *', 'Access-Control-Allow-Credentials:
+                true']
+            hst:scheme: https
+            hst:showcontextpath: true
+            hst:showport: false
