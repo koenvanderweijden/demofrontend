@@ -3,6 +3,104 @@
   jcr:mixinTypes: ['hippostd:cmxpagefolder', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: d34fb5fc-ac68-43a6-8766-2ae37f97a22d
   hippostd:channelid: myproject
-  hippostd:foldertype: [new-translated-folder, new-document]
+  hippostd:foldertype: [new-Page-document, new-Page-folder]
   hippotranslation:id: 1e0efbce-84bc-43d5-9d1e-d9b5fbd04218
   hippotranslation:locale: en
+  /page-1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 95dbae07-36fe-47b1-b883-e918acd50265
+    hippo:name: Page 1
+    hippo:versionHistory: f3da8e8b-65fb-446d-a873-a5f077d3dbac
+    /page-1[1]:
+      jcr:primaryType: myproject:Page
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: ae4788bc-2c0c-47a8-9a0e-dd04c59b3682
+      hippo:availability: []
+      hippostd:holder: admin
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-04T12:13:52.291+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-04T12:17:13.101+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b9747be8-71e7-4cf6-9d14-ffa43fe6f4b7
+      hippotranslation:locale: en
+      myproject:title: Page 1 title
+      /myproject:SeoCompound:
+        jcr:primaryType: myproject:SeoCompound
+        myproject:seoDescription: seo description page 1
+        myproject:seoTitle: seop title page 1
+    /page-1[2]:
+      jcr:primaryType: myproject:Page
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 4586a1bc-a7fb-4c91-b9aa-d6b76e1ee491
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-04T12:13:52.291+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-04T13:11:11.927+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b9747be8-71e7-4cf6-9d14-ffa43fe6f4b7
+      hippotranslation:locale: en
+      myproject:title: Page 1 title
+      /myproject:SeoCompound:
+        jcr:primaryType: myproject:SeoCompound
+        myproject:seoDescription: seo description page 1
+        myproject:seoTitle: seop title page 1
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 9a5de5f2-52b9-4d1f-8c0f-3f276fb463b1
+        hst:pageref: one-column-page
+        /007e69db-971f-4bcf-82f3-aedf8f719236:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 74759537-7559-44ff-8e06-ed0b6bca8e6a
+          hippo:identifier: 65ef9e44-9587-4717-a788-f94146d99aeb
+          hst:lastmodified: 2021-05-04T11:11:11.926Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 4f60ab0b-b07c-4886-9815-6ab59bf6bce7
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+    /page-1[3]:
+      jcr:primaryType: myproject:Page
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: f6ae4985-de4e-4c76-8d35-a8447f0baddb
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-04T12:13:52.291+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-04T13:11:11.927+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-05-04T13:11:13.187+02:00
+      hippotranslation:id: b9747be8-71e7-4cf6-9d14-ffa43fe6f4b7
+      hippotranslation:locale: en
+      myproject:title: Page 1 title
+      /myproject:SeoCompound:
+        jcr:primaryType: myproject:SeoCompound
+        myproject:seoDescription: seo description page 1
+        myproject:seoTitle: seop title page 1
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: fa9dc5b3-2139-46d1-aa67-5f17a3aaa295
+        hst:pageref: one-column-page
+        /007e69db-971f-4bcf-82f3-aedf8f719236:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 722bc2ae-3b7d-4c17-8a90-0fca03568c80
+          hippo:identifier: 65ef9e44-9587-4717-a788-f94146d99aeb
+          hst:lastmodified: 2021-05-04T11:11:11.926Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 3e87bc55-ff92-4bd7-91d7-14ccae51eaef
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner

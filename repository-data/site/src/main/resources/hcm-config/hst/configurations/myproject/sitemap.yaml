@@ -94,3 +94,10 @@ definitions:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/contentlist
           hst:relativecontentpath: ${parent}/${1}
+      /xpages:
+        jcr:primaryType: hst:sitemapitem
+        hst:hiddeninchannelmanager: true
+        hst:relativecontentpath: xpages
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:relativecontentpath: ${parent}/${1}

@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: a1659db1-521a-4850-8a35-6cc99fb8520e
+          jcr:uuid: 65b714f1-ea82-4eb9-aeb8-b3f06a81e9c6
           hipposysedit:node: true
           hipposysedit:supertype: ['myproject:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
@@ -52,7 +52,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: myproject:contentdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: a3127175-cfa4-4acb-82bc-0cfdd1e7f064
+          jcr:uuid: b9099d90-7df6-49e6-8cdb-4dc9e94ad1ac
           hippo:related___pathreference: []
           hippostd:holder: holder
           hippostd:state: draft
@@ -67,7 +67,7 @@ definitions:
           myproject:title: ''
           /myproject:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <html><body></body></html>
+            hippostd:content: ''
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:

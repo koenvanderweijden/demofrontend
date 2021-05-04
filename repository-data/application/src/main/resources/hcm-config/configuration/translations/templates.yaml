@@ -38,6 +38,8 @@ definitions:
       new-news-folder: new news item folder
       new-content-document: new content document
       new-content-folder: new content folder
+      new-Page-document: new Page document
+      new-Page-folder: new Page folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
