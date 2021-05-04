@@ -1,0 +1,24 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /one-column-page:
+        jcr:primaryType: hst:xpage
+        hst:label: One column page
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 007e69db-971f-4bcf-82f3-aedf8f719236
+          hst:xtype: HST.vBox
+      /two-column-page:
+        jcr:primaryType: hst:xpage
+        hst:label: One column page
+        hst:referencecomponent: hst:abstractpages/base
+        /right:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 007e69db-971f-4bcf-82f3-aedf8f719236
+          hst:xtype: HST.vBox
+        /left:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: cd6c3f52-7847-4273-98f6-c4c1d3bbd301
+          hst:xtype: HST.vBox
