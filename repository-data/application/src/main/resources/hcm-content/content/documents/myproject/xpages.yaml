@@ -1,0 +1,8 @@
+/content/documents/myproject/xpages:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippostd:cmxpagefolder', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: d34fb5fc-ac68-43a6-8766-2ae37f97a22d
+  hippostd:channelid: myproject
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 1e0efbce-84bc-43d5-9d1e-d9b5fbd04218
+  hippotranslation:locale: en
