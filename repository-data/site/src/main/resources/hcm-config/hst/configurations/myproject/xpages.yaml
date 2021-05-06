@@ -12,7 +12,7 @@ definitions:
           hst:xtype: HST.vBox
       /two-column-page:
         jcr:primaryType: hst:xpage
-        hst:label: One column page
+        hst:label: Two column page
         hst:referencecomponent: hst:abstractpages/base
         /right:
           jcr:primaryType: hst:containercomponent

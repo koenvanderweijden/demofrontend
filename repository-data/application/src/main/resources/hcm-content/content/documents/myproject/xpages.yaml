@@ -104,3 +104,89 @@
             hst:parameternames: [document, org.hippoecm.hst.core.component.template]
             hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
             hst:template: essentials-banner
+  /page-2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b47a25ec-39d3-4d04-a58f-41e684be473a
+    hippo:name: Page 2
+    hippo:versionHistory: bbf8b218-7049-4912-b436-8b9da4fb3e50
+    /page-2[1]:
+      jcr:primaryType: myproject:Page
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: fdc22856-3e31-4353-9cd0-5acd55579e20
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-04T13:24:01.743+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-04T13:24:32+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4d43f4d9-318c-41b9-a9d7-b4d26ac4c97c
+      hippotranslation:locale: en
+      myproject:title: Page 2 title
+      /myproject:SeoCompound:
+        jcr:primaryType: myproject:SeoCompound
+        myproject:seoDescription: SEO description page 2
+        myproject:seoTitle: SEO title page 2
+    /page-2[2]:
+      jcr:primaryType: myproject:Page
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 51f07832-ac7d-480a-b8ec-6bf0a8f8e8e1
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-04T13:24:01.743+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-04T13:24:23.296+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4d43f4d9-318c-41b9-a9d7-b4d26ac4c97c
+      hippotranslation:locale: en
+      myproject:title: Page 2 title
+      /myproject:SeoCompound:
+        jcr:primaryType: myproject:SeoCompound
+        myproject:seoDescription: SEO description page 2
+        myproject:seoTitle: SEO title page 2
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 32fc7775-aa22-4f39-b516-e5cec9739db2
+        hst:pageref: two-column-page
+        /007e69db-971f-4bcf-82f3-aedf8f719236:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 7bfe70a2-fc7e-47b6-8b1c-c31f5fefb615
+          hippo:identifier: ee80ccda-5d8f-4d8c-871a-34a12bb45f03
+        /cd6c3f52-7847-4273-98f6-c4c1d3bbd301:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: ef7d119d-4e20-4169-a675-e48cba0a7776
+          hippo:identifier: a546905f-0ca8-4d53-b2e3-24ba82d6c00e
+    /page-2[3]:
+      jcr:primaryType: myproject:Page
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 7b0461bb-ba98-45c2-806b-ad641f041852
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-04T13:24:01.743+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-04T13:24:23.296+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-05-04T13:24:31.510+02:00
+      hippotranslation:id: 4d43f4d9-318c-41b9-a9d7-b4d26ac4c97c
+      hippotranslation:locale: en
+      myproject:title: Page 2 title
+      /myproject:SeoCompound:
+        jcr:primaryType: myproject:SeoCompound
+        myproject:seoDescription: SEO description page 2
+        myproject:seoTitle: SEO title page 2
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: c4554bf9-7bf1-4f61-9d7f-b72a318a06bf
+        hst:pageref: two-column-page
+        /007e69db-971f-4bcf-82f3-aedf8f719236:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 3b973bba-0250-443a-bc52-7886ae0f259f
+          hippo:identifier: ee80ccda-5d8f-4d8c-871a-34a12bb45f03
+        /cd6c3f52-7847-4273-98f6-c4c1d3bbd301:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: e3dd825c-9a89-4935-b0ea-56d70b65f212
+          hippo:identifier: a546905f-0ca8-4d53-b2e3-24ba82d6c00e

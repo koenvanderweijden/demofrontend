@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:abstractpages/minimal:
+      jcr:primaryType: hst:component
+      hst:template: base-layout
+      /menu:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+        hst:parameternames: [selectedMenu, level, menu]
+        hst:parametervalues: ['on', '1', main]
+        hst:template: base-top-menu
+      /footer:
+        jcr:primaryType: hst:component
+        hst:template: base-footer
+      /lef-component:
+        jcr:primaryType: hst:component
